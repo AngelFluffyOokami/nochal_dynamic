@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<WorkshopItemInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PublishedFileId>2794151653</PublishedFileId>
+  <Name>Nochal's Dynamic</Name>
+  <Description>This campaign contains a mission in which you attack the shore, go deeper, and lastly attack the airbase to the Northeast.
+
+by Igorczyk</Description>
+  <IconFileName>image.jpg</IconFileName>
+  <Tags>
+    <string>Multiplayer Campaigns</string>
+  </Tags>
+</WorkshopItemInfo>
