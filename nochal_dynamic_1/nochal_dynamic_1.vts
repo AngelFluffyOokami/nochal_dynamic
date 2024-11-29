@@ -1,6 +1,6 @@
 CustomScenario
 {
-	gameVersion = 1.9.5f1
+	gameVersion = 1.5.5f1
 	campaignID = nochal_dynamic
 	campaignOrderIdx = 0
 	scenarioName = Nochal's Dynamic
@@ -17,7 +17,7 @@ CustomScenario
 	isTraining = False
 	rtbWptID = 
 	refuelWptID = 
-	mpPlayerCount = 16
+	mpPlayerCount = 14
 	autoPlayerCount = True
 	overrideAlliedPlayerCount = 14
 	overrideEnemyPlayerCount = 0
@@ -35,10 +35,6 @@ CustomScenario
 	fuelDrainMult = 1
 	envName = morning
 	selectableEnv = True
-	windDir = 0
-	windSpeed = 0
-	windVariation = 0
-	windGusts = 0
 	qsMode = Anywhere
 	qsLimit = -1
 	UNITS
@@ -2870,7 +2866,7 @@ CustomScenario
 			globalPosition = (134103.21868896484, 1314.9910888671875, 31420.540740966797)
 			unitInstanceID = 136
 			unitID = EnemySoldierMANPAD
-			rotation = (9.576909, 354.7744, 7.884644)
+			rotation = (9.576894, 354.7744, 7.884646)
 			spawnChance = 100
 			lastValidPlacement = (134103.21868896484, 1314.9910888671875, 31420.540740966797)
 			editorPlacementMode = Ground
@@ -6040,7 +6036,7 @@ CustomScenario
 			globalPosition = (45494.23828125, 146.12615966796875, 67077.5078125)
 			unitInstanceID = 258
 			unitID = IRAPC
-			rotation = (9.664427, 354.1283, 7.776655)
+			rotation = (9.664426, 354.1283, 7.776655)
 			spawnChance = 100
 			lastValidPlacement = (45494.23828125, 146.12615966796875, 67077.5078125)
 			editorPlacementMode = Ground
@@ -7816,187 +7812,6 @@ CustomScenario
 				respawnable = True
 			}
 		}
-		UnitSpawner
-		{
-			unitName = F45A pilot
-			globalPosition = (65346.528656005859, 941.659423828125, 11725.089004516602)
-			unitInstanceID = 326
-			unitID = AlliedSoldier
-			rotation = (358.5163, -0.00552148, 0.2132409)
-			spawnChance = 100
-			lastValidPlacement = (65346.528656005859, 941.659423828125, 11725.089004516602)
-			editorPlacementMode = Ground
-			spawnFlags = 
-			UnitFields
-			{
-				unitGroup = null
-				behavior = Parked
-				defaultPath = null
-				waypoint = null
-				engageEnemies = False
-				detectionMode = Default
-				spawnOnStart = False
-				invincible = True
-				respawnable = True
-				receiveFriendlyDamage = False
-			}
-		}
-		UnitSpawner
-		{
-			unitName = Specialist
-			globalPosition = (65345.063369750977, 883.031494140625, 9181.5762424468994)
-			unitInstanceID = 327
-			unitID = AlliedSoldier
-			rotation = (4.957574, 0.4801857, 5.53935)
-			spawnChance = 100
-			lastValidPlacement = (65345.063369750977, 883.031494140625, 9181.5762424468994)
-			editorPlacementMode = Ground
-			spawnFlags = 
-			UnitFields
-			{
-				unitGroup = Allied:Xray
-				behavior = Parked
-				defaultPath = null
-				waypoint = null
-				engageEnemies = True
-				detectionMode = Default
-				spawnOnStart = True
-				invincible = True
-				respawnable = True
-				receiveFriendlyDamage = False
-			}
-		}
-		UnitSpawner
-		{
-			unitName = Specialist
-			globalPosition = (65346.403671264648, 884.56494140625, 9165.5436172485352)
-			unitInstanceID = 328
-			unitID = AlliedSoldier
-			rotation = (4.957574, 0.4801857, 5.53935)
-			spawnChance = 100
-			lastValidPlacement = (65346.403671264648, 884.56494140625, 9165.5436172485352)
-			editorPlacementMode = Ground
-			spawnFlags = 
-			UnitFields
-			{
-				unitGroup = Allied:Xray
-				behavior = Parked
-				defaultPath = null
-				waypoint = null
-				engageEnemies = True
-				detectionMode = Default
-				spawnOnStart = True
-				invincible = True
-				respawnable = True
-				receiveFriendlyDamage = False
-			}
-		}
-		UnitSpawner
-		{
-			unitName = Specialist
-			globalPosition = (65332.25927734375, 883.301513671875, 9164.3611831665039)
-			unitInstanceID = 329
-			unitID = AlliedSoldier
-			rotation = (4.957574, 0.4801857, 5.53935)
-			spawnChance = 100
-			lastValidPlacement = (65332.25927734375, 883.301513671875, 9164.3611831665039)
-			editorPlacementMode = Ground
-			spawnFlags = 
-			UnitFields
-			{
-				unitGroup = Allied:Xray
-				behavior = Parked
-				defaultPath = null
-				waypoint = null
-				engageEnemies = True
-				detectionMode = Default
-				spawnOnStart = True
-				invincible = True
-				respawnable = True
-				receiveFriendlyDamage = False
-			}
-		}
-		UnitSpawner
-		{
-			unitName = Specialist
-			globalPosition = (65325.330322265625, 881.57421875, 9176.4447631835938)
-			unitInstanceID = 330
-			unitID = AlliedSoldier
-			rotation = (4.957574, 0.4801857, 5.53935)
-			spawnChance = 100
-			lastValidPlacement = (65325.330322265625, 881.57421875, 9176.4447631835938)
-			editorPlacementMode = Ground
-			spawnFlags = 
-			UnitFields
-			{
-				unitGroup = Allied:Xray
-				behavior = Parked
-				defaultPath = null
-				waypoint = null
-				engageEnemies = True
-				detectionMode = Default
-				spawnOnStart = True
-				invincible = True
-				respawnable = True
-				receiveFriendlyDamage = False
-			}
-		}
-		UnitSpawner
-		{
-			unitName = Support
-			globalPosition = (64217.92919921875, 856.948974609375, 7682.993896484375)
-			unitInstanceID = 331
-			unitID = MultiplayerSpawn
-			rotation = (3.653717, 359.8649, 357.8811)
-			spawnChance = 100
-			lastValidPlacement = (64217.92919921875, 856.948974609375, 7682.993896484375)
-			editorPlacementMode = Ground
-			spawnFlags = 
-			UnitFields
-			{
-				vehicle = AV-42C
-				slotLabel = 
-				unitGroup = Allied:Foxtrot
-				startMode = FlightReady
-				equipment = 
-				initialSpeed = 0
-				rtbIsSpawn = False
-				limitedLives = False
-				lifeCount = 1
-				b_eqAssignmentMode = False
-				costToSpawn = 0
-				liveryRef = 0;
-				receiveFriendlyDamage = True
-			}
-		}
-		UnitSpawner
-		{
-			unitName = F45A
-			globalPosition = (65310.279296875, 880.0771484375, 9146.7880859375)
-			unitInstanceID = 332
-			unitID = MultiplayerSpawn
-			rotation = (1.102505, 0.1812816, 9.338017)
-			spawnChance = 100
-			lastValidPlacement = (65310.279296875, 880.0771484375, 9146.7880859375)
-			editorPlacementMode = Ground
-			spawnFlags = 
-			UnitFields
-			{
-				vehicle = F-45A
-				slotLabel = 
-				unitGroup = null
-				startMode = FlightReady
-				equipment = 
-				initialSpeed = 0
-				rtbIsSpawn = False
-				limitedLives = True
-				lifeCount = 1
-				b_eqAssignmentMode = False
-				costToSpawn = 0
-				liveryRef = 0;
-				receiveFriendlyDamage = True
-			}
-		}
 	}
 	PATHS
 	{
@@ -8211,48 +8026,6 @@ CustomScenario
 			name = 3: Cache
 			globalPoint = (110457.00466918945, 945.2547607421875, 168453.60333251953)
 		}
-		WAYPOINT
-		{
-			id = 30
-			name = F45A
-			globalPoint = (65295.026306152344, 941.640380859375, 11731.752746582031)
-		}
-		WAYPOINT
-		{
-			id = 31
-			name = F45A Medic [2]
-			globalPoint = (65345.139846801758, 941.72509765625, 11727.834747314453)
-		}
-		WAYPOINT
-		{
-			id = 32
-			name = F45A Medic [1]
-			globalPoint = (65347.346466064453, 941.5810546875, 11721.950393676758)
-		}
-		WAYPOINT
-		{
-			id = 33
-			name = Recover [1]
-			globalPoint = (65261.405605316162, 943.7236328125, 11774.205032348633)
-		}
-		WAYPOINT
-		{
-			id = 34
-			name = Recover [2]
-			globalPoint = (65271.103858947754, 943.519775390625, 11787.272232055664)
-		}
-		WAYPOINT
-		{
-			id = 35
-			name = Specialists Drop Off
-			globalPoint = (65332.859115600586, 882.78759765625, 9170.8963165283203)
-		}
-		WAYPOINT
-		{
-			id = 36
-			name = Pilot Drop Off
-			globalPoint = (64210.700552940369, 857.559326171875, 7677.8938293457031)
-		}
 	}
 	UNITGROUPS
 	{
@@ -8265,8 +8038,6 @@ CustomScenario
 			Charlie = 2;14;15;303;
 			Delta = 0;297;298;299;300;301;302;
 			Echo = 0;304;305;306;
-			Foxtrot = 2;331;
-			Xray = 0;329;328;327;330;
 			Alpha_SETTINGS
 			{
 				syncAltSpawns = False
@@ -8292,14 +8063,6 @@ CustomScenario
 				syncAltSpawns = False
 			}
 			Echo_SETTINGS
-			{
-				syncAltSpawns = False
-			}
-			Foxtrot_SETTINGS
-			{
-				syncAltSpawns = False
-			}
-			Xray_SETTINGS
 			{
 				syncAltSpawns = False
 			}
@@ -8594,25 +8357,6 @@ CustomScenario
 				}
 			}
 		}
-		TriggerEvent
-		{
-			id = 9
-			enabled = True
-			triggerType = Conditional
-			conditional = 45
-			eventName = F45A Death
-			EventInfo
-			{
-				eventName = 
-				EventTarget
-				{
-					targetType = Objective
-					targetID = 41
-					eventName = Begin Objective
-					methodName = BeginObjective
-				}
-			}
-		}
 	}
 	OBJECTIVES
 	{
@@ -8621,7 +8365,7 @@ CustomScenario
 			objectiveName = Protect Carriers
 			objectiveInfo = Protect the carriers, if they get destroyed, you lose
 			objectiveID = 0
-			orderID = 6
+			orderID = 0
 			required = True
 			completionReward = 0
 			waypoint = unit:0
@@ -8660,7 +8404,7 @@ CustomScenario
 			objectiveName = 1: Clear the bay
 			objectiveInfo = Clear the bay of any boats parked in it, be careful of some MANPADS
 			objectiveID = 8
-			orderID = 13
+			orderID = 6
 			required = True
 			completionReward = 0
 			waypoint = 5
@@ -8702,7 +8446,7 @@ CustomScenario
 			objectiveName = 1:Capture FARP [Opt]
 			objectiveInfo = Kill units surrounding FARP to capture it and allow Zulu to spawn there
 			objectiveID = 7
-			orderID = 8
+			orderID = 2
 			required = False
 			completionReward = 0
 			waypoint = 2
@@ -8780,7 +8524,7 @@ CustomScenario
 			objectiveName = Approach Sector 1
 			objectiveInfo = Approach Sector 1 to begin the attack.
 			objectiveID = 6
-			orderID = 7
+			orderID = 1
 			required = True
 			completionReward = 0
 			waypoint = 4
@@ -8848,7 +8592,7 @@ CustomScenario
 			objectiveName = 1: SEAD
 			objectiveInfo = Destroy enemy air defences so that everyone else can get into the AO
 			objectiveID = 9
-			orderID = 14
+			orderID = 7
 			required = True
 			completionReward = 0
 			waypoint = 4
@@ -9019,7 +8763,7 @@ CustomScenario
 			objectiveName = 1:SEADleftovers[Opt]
 			objectiveInfo = After destroying the radars, you can destroy some launchers.
 			objectiveID = 10
-			orderID = 16
+			orderID = 8
 			required = False
 			completionReward = 0
 			waypoint = 4
@@ -9061,7 +8805,7 @@ CustomScenario
 			objectiveName = 1: Convoy
 			objectiveInfo = There is a convoy coming in from north heading for the city, find it.
 			objectiveID = 11
-			orderID = 18
+			orderID = 9
 			required = True
 			completionReward = 0
 			waypoint = 7
@@ -9129,7 +8873,7 @@ CustomScenario
 			objectiveName = 1: CAP
 			objectiveInfo = Keep the air superiority over the sector to allow others to engage ground units
 			objectiveID = 12
-			orderID = 17
+			orderID = 13
 			required = True
 			completionReward = 0
 			waypoint = 1
@@ -9178,7 +8922,7 @@ CustomScenario
 			objectiveName = Approach Sector 2
 			objectiveInfo = After done with sector 1, go ahead and approach sector 2 for tasking
 			objectiveID = 13
-			orderID = 22
+			orderID = 16
 			required = True
 			completionReward = 0
 			waypoint = 8
@@ -9421,7 +9165,7 @@ CustomScenario
 			objectiveName = 2: Boats
 			objectiveInfo = Boats going down river, don't let them reach carrier group
 			objectiveID = 14
-			orderID = 23
+			orderID = 17
 			required = True
 			completionReward = 0
 			waypoint = 8
@@ -9483,7 +9227,7 @@ CustomScenario
 			objectiveName = Protect Tanker
 			objectiveInfo = There is a tanker available now, protect it
 			objectiveID = 15
-			orderID = 20
+			orderID = 14
 			required = True
 			completionReward = 0
 			waypoint = unit:95
@@ -9602,7 +9346,7 @@ CustomScenario
 			objectiveName = 2: SEAD
 			objectiveInfo = Destroy enemy air defences so that everyone else can get into the AO
 			objectiveID = 16
-			orderID = 24
+			orderID = 18
 			required = True
 			completionReward = 0
 			waypoint = 8
@@ -9651,7 +9395,7 @@ CustomScenario
 			objectiveName = 2:SEADleftovers[Opt]
 			objectiveInfo = After destroying the radars, you can destroy some launchers.
 			objectiveID = 17
-			orderID = 27
+			orderID = 21
 			required = False
 			completionReward = 0
 			waypoint = 8
@@ -9693,7 +9437,7 @@ CustomScenario
 			objectiveName = 2: Convoy
 			objectiveInfo = Don't let the convoy reach the city
 			objectiveID = 18
-			orderID = 28
+			orderID = 22
 			required = True
 			completionReward = 0
 			waypoint = 10
@@ -9775,7 +9519,7 @@ CustomScenario
 			objectiveName = 2: CAP
 			objectiveInfo = Keep the air superiority over the sector to allow others to engage ground units
 			objectiveID = 19
-			orderID = 29
+			orderID = 23
 			required = True
 			completionReward = 0
 			waypoint = null
@@ -9866,7 +9610,7 @@ CustomScenario
 			objectiveName = Protect AWACS
 			objectiveInfo = There is a AWACS available now, protect it
 			objectiveID = 20
-			orderID = 21
+			orderID = 15
 			required = True
 			completionReward = 0
 			waypoint = unit:129
@@ -9948,7 +9692,7 @@ CustomScenario
 			objectiveName = 2:Clear valley [Opt]
 			objectiveInfo = Clear the valley of MANPADS hiding in it
 			objectiveID = 21
-			orderID = 30
+			orderID = 24
 			required = False
 			completionReward = 0
 			waypoint = 14
@@ -9997,7 +9741,7 @@ CustomScenario
 			objectiveName = 3:Capture FARP [Opt]
 			objectiveInfo = Capture FARP so Zulu can spawn there and be closer to the final objective
 			objectiveID = 22
-			orderID = 31
+			orderID = 25
 			required = False
 			completionReward = 0
 			waypoint = 17
@@ -10162,7 +9906,7 @@ CustomScenario
 			objectiveName = Approach Sector 3
 			objectiveInfo = After done with sector 2, go ahead and approach sector 3 for tasking
 			objectiveID = 23
-			orderID = 33
+			orderID = 27
 			required = True
 			completionReward = 0
 			waypoint = 15
@@ -10279,7 +10023,7 @@ CustomScenario
 			objectiveName = 3: CAP
 			objectiveInfo = Keep the air superiority over the sector to allow others to engage ground units
 			objectiveID = 25
-			orderID = 34
+			orderID = 28
 			required = True
 			completionReward = 0
 			waypoint = 16
@@ -10335,7 +10079,7 @@ CustomScenario
 			objectiveName = 3: Clear the city
 			objectiveInfo = Kill the SAM sites, MANPADS and Tanks hidden all around the city
 			objectiveID = 27
-			orderID = 35
+			orderID = 29
 			required = True
 			completionReward = 0
 			waypoint = 15
@@ -10384,7 +10128,7 @@ CustomScenario
 			objectiveName = 3: SEAD
 			objectiveInfo = Destroy enemy air defences so that everyone else can get into the AO
 			objectiveID = 28
-			orderID = 36
+			orderID = 30
 			required = True
 			completionReward = 0
 			waypoint = 15
@@ -10426,7 +10170,7 @@ CustomScenario
 			objectiveName = 3: Capture airbase
 			objectiveInfo = To capture the airbase you have to finish CAP SEAD Convoy and clear city
 			objectiveID = 30
-			orderID = 37
+			orderID = 31
 			required = True
 			completionReward = 100
 			waypoint = 15
@@ -10500,7 +10244,7 @@ CustomScenario
 			objectiveName = 1: Clear city
 			objectiveInfo = Clear the city of some ground targets
 			objectiveID = 31
-			orderID = 12
+			orderID = 5
 			required = True
 			completionReward = 0
 			waypoint = 7
@@ -10542,7 +10286,7 @@ CustomScenario
 			objectiveName = 3: Convoys
 			objectiveInfo = There are convoys departing from city, find them and destroy them
 			objectiveID = 32
-			orderID = 38
+			orderID = 32
 			required = True
 			completionReward = 0
 			waypoint = 15
@@ -10591,7 +10335,7 @@ CustomScenario
 			objectiveName = 1:Clear shore of SAM
 			objectiveInfo = The shore to the south of the city has some SAMs, deal with them.
 			objectiveID = 33
-			orderID = 15
+			orderID = 12
 			required = True
 			completionReward = 0
 			waypoint = 4
@@ -10633,7 +10377,7 @@ CustomScenario
 			objectiveName = 1: Destroy Cache
 			objectiveInfo = The enemy has hangars and some artillery vehicles in small town near the city
 			objectiveID = 34
-			orderID = 19
+			orderID = 10
 			required = True
 			completionReward = 0
 			waypoint = 25
@@ -10675,7 +10419,7 @@ CustomScenario
 			objectiveName = 2: Find the pilot
 			objectiveInfo = An A/V-42 has crashed near the valley. To complete you need to be close.
 			objectiveID = 35
-			orderID = 25
+			orderID = 19
 			required = True
 			completionReward = 0
 			waypoint = 14
@@ -10715,7 +10459,7 @@ CustomScenario
 			objectiveName = 2: Destroy Bunker
 			objectiveInfo = The enemy has a hangar at the end of a river. Destroy it.
 			objectiveID = 36
-			orderID = 26
+			orderID = 20
 			required = True
 			completionReward = 0
 			waypoint = 8
@@ -10817,7 +10561,7 @@ CustomScenario
 			objectiveName = 1: Pick-up [Opt]
 			objectiveInfo = 
 			objectiveID = 38
-			orderID = 9
+			orderID = 3
 			required = False
 			completionReward = 0
 			waypoint = 2
@@ -10866,7 +10610,7 @@ CustomScenario
 			objectiveName = 1: Drop-off [Opt]
 			objectiveInfo = Drop the soldiers near a town. Be careful, though! There are some SAMs in there.
 			objectiveID = 39
-			orderID = 10
+			orderID = 4
 			required = False
 			completionReward = 0
 			waypoint = 28
@@ -10940,7 +10684,7 @@ CustomScenario
 			objectiveName = 3:Destroy Cache[Opt]
 			objectiveInfo = An enemy has some hangars to the north-east. Bring some GBU's for the bunkers.
 			objectiveID = 40
-			orderID = 32
+			orderID = 26
 			required = False
 			completionReward = 0
 			waypoint = 29
@@ -10988,419 +10732,6 @@ CustomScenario
 				minRequired = 10
 				perUnitReward = 0
 				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = Rescue F45A Pilot[1]
-			objectiveInfo = 
-			objectiveID = 41
-			orderID = 0
-			required = False
-			completionReward = 0
-			waypoint = unit:327
-			autoSetWaypoint = False
-			startMode = Triggered
-			objectiveType = Pick_Up
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-					EventTarget
-					{
-						targetType = Unit
-						targetID = 326
-						eventName = Spawn Unit
-						methodName = SpawnUnit
-					}
-					EventTarget
-					{
-						targetType = Unit
-						targetID = 326
-						eventName = Destroy
-						methodName = DestroySelf
-					}
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-					EventTarget
-					{
-						targetType = Objective
-						targetID = 42
-						eventName = Reset Objective
-						methodName = ResetObjective
-					}
-					EventTarget
-					{
-						targetType = Objective
-						targetID = 42
-						eventName = Begin Objective
-						methodName = BeginObjective
-					}
-				}
-			}
-			fields
-			{
-				targets = 327;328;329;330;
-				minRequired = 4
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = Rescue F45A Pilot[2]
-			objectiveInfo = 
-			objectiveID = 42
-			orderID = 1
-			required = False
-			completionReward = 0
-			waypoint = 30
-			autoSetWaypoint = False
-			startMode = Triggered
-			objectiveType = Drop_Off
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-					EventTarget
-					{
-						targetType = Objective
-						targetID = 46
-						eventName = Reset Objective
-						methodName = ResetObjective
-					}
-					EventTarget
-					{
-						targetType = Objective
-						targetID = 46
-						eventName = Begin Objective
-						methodName = BeginObjective
-					}
-				}
-			}
-			fields
-			{
-				targets = 327;328;330;329;
-				minRequired = 4
-				perUnitReward = 0
-				fullCompleteBonus = 0
-				unloadRadius = 60
-				dropoffRallyPt = 30
-			}
-		}
-		Objective
-		{
-			objectiveName = Rescue F45A Pilot[4]
-			objectiveInfo = 
-			objectiveID = 43
-			orderID = 3
-			required = False
-			completionReward = 0
-			waypoint = 30
-			autoSetWaypoint = False
-			startMode = Triggered
-			objectiveType = Pick_Up
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-					EventTarget
-					{
-						targetType = Objective
-						targetID = 44
-						eventName = Reset Objective
-						methodName = ResetObjective
-					}
-					EventTarget
-					{
-						targetType = Objective
-						targetID = 44
-						eventName = Begin Objective
-						methodName = BeginObjective
-					}
-				}
-			}
-			fields
-			{
-				targets = 326;328;327;330;329;
-				minRequired = 5
-				perUnitReward = 0
-				fullCompleteBonus = 0
-			}
-		}
-		Objective
-		{
-			objectiveName = Rescue F45A Pilot[5]
-			objectiveInfo = 
-			objectiveID = 44
-			orderID = 4
-			required = False
-			completionReward = 0
-			waypoint = 35
-			autoSetWaypoint = False
-			startMode = Triggered
-			objectiveType = Drop_Off
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-					EventTarget
-					{
-						targetType = Objective
-						targetID = 45
-						eventName = Reset Objective
-						methodName = ResetObjective
-					}
-					EventTarget
-					{
-						targetType = Objective
-						targetID = 45
-						eventName = Begin Objective
-						methodName = BeginObjective
-					}
-				}
-			}
-			fields
-			{
-				targets = 327;328;329;330;
-				minRequired = 4
-				perUnitReward = 0
-				fullCompleteBonus = 0
-				unloadRadius = 20
-				dropoffRallyPt = 35
-			}
-		}
-		Objective
-		{
-			objectiveName = Rescue F45A Pilot[6]
-			objectiveInfo = 
-			objectiveID = 45
-			orderID = 5
-			required = False
-			completionReward = 0
-			waypoint = 36
-			autoSetWaypoint = False
-			startMode = Triggered
-			objectiveType = Drop_Off
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-					EventTarget
-					{
-						targetType = Unit
-						targetID = 332
-						eventName = Add Lives
-						methodName = AddLives
-						ParamInfo
-						{
-							type = System.Single
-							value = 1
-							name = Lives
-							ParamAttrInfo
-							{
-								type = MinMax
-								data = (-100,100)
-							}
-							ParamAttrInfo
-							{
-								type = UnitSpawnAttributeRange+RangeTypes
-								data = Int
-							}
-						}
-					}
-					EventTarget
-					{
-						targetType = Objective
-						targetID = 41
-						eventName = Cancel Objective
-						methodName = CancelObjective
-					}
-					EventTarget
-					{
-						targetType = Objective
-						targetID = 42
-						eventName = Cancel Objective
-						methodName = CancelObjective
-					}
-					EventTarget
-					{
-						targetType = Objective
-						targetID = 43
-						eventName = Cancel Objective
-						methodName = CancelObjective
-					}
-					EventTarget
-					{
-						targetType = Objective
-						targetID = 44
-						eventName = Cancel Objective
-						methodName = CancelObjective
-					}
-					EventTarget
-					{
-						targetType = Objective
-						targetID = 45
-						eventName = Cancel Objective
-						methodName = CancelObjective
-					}
-					EventTarget
-					{
-						targetType = Unit
-						targetID = 326
-						eventName = Destroy
-						methodName = DestroySelf
-					}
-				}
-			}
-			fields
-			{
-				targets = 326;
-				minRequired = 1
-				perUnitReward = 0
-				fullCompleteBonus = 0
-				unloadRadius = 10
-				dropoffRallyPt = 36
-			}
-		}
-		Objective
-		{
-			objectiveName = Rescue F45A Pilot[3]
-			objectiveInfo = 
-			objectiveID = 46
-			orderID = 2
-			required = True
-			completionReward = 0
-			waypoint = null
-			autoSetWaypoint = False
-			startMode = Triggered
-			objectiveType = Conditional
-			startEvent
-			{
-				EventInfo
-				{
-					eventName = Start Event
-					EventTarget
-					{
-						targetType = Event_Sequences
-						targetID = 7
-						eventName = Restart
-						methodName = Restart
-					}
-					EventTarget
-					{
-						targetType = Event_Sequences
-						targetID = 7
-						eventName = Begin
-						methodName = BeginEvent
-					}
-				}
-			}
-			failEvent
-			{
-				EventInfo
-				{
-					eventName = Failed Event
-				}
-			}
-			completeEvent
-			{
-				EventInfo
-				{
-					eventName = Completed Event
-					EventTarget
-					{
-						targetType = Objective
-						targetID = 43
-						eventName = Reset Objective
-						methodName = ResetObjective
-					}
-					EventTarget
-					{
-						targetType = Objective
-						targetID = 43
-						eventName = Begin Objective
-						methodName = BeginObjective
-					}
-				}
-			}
-			fields
-			{
-				successConditional = 46
-				failConditional = null
 			}
 		}
 	}
@@ -11967,14 +11298,14 @@ CustomScenario
 			prefabID = HescoX16T
 			id = 79
 			globalPos = (110520.61640930176, 946.97247314453125, 168598.7092590332)
-			rotation = (0.0863212, 270.0032, 3.335057E-09)
+			rotation = (0.0863211, 270.0032, -3.335057E-09)
 		}
 		StaticObject
 		{
 			prefabID = HescoX16T
 			id = 80
 			globalPos = (110499.41583251953, 946.9405517578125, 168598.70721435547)
-			rotation = (0.0863212, 270.0032, 3.335057E-09)
+			rotation = (0.0863211, 270.0032, -3.335057E-09)
 		}
 		StaticObject
 		{
@@ -11995,35 +11326,35 @@ CustomScenario
 			prefabID = HescoX16T
 			id = 83
 			globalPos = (110435.10757446289, 946.92572021484375, 168598.74096679688)
-			rotation = (0.08617119, 270.0029, 0)
+			rotation = (0.08617104, 270.0029, 0)
 		}
 		StaticObject
 		{
 			prefabID = HescoX16T
 			id = 84
 			globalPos = (110413.72959899902, 946.89373779296875, 168598.7526550293)
-			rotation = (0.08617119, 270.0029, 0)
+			rotation = (0.08617104, 270.0029, 0)
 		}
 		StaticObject
 		{
 			prefabID = HescoX16T
 			id = 85
 			globalPos = (110392.54676055908, 946.86395263671875, 168598.87759399414)
-			rotation = (0.08617119, 270.0029, 0)
+			rotation = (0.08617104, 270.0029, 0)
 		}
 		StaticObject
 		{
 			prefabID = HescoX16T
 			id = 86
 			globalPos = (110371.13332366943, 946.832763671875, 168598.93716430664)
-			rotation = (0.08617119, 270.0029, 0)
+			rotation = (0.08617104, 270.0029, 0)
 		}
 		StaticObject
 		{
 			prefabID = HescoX16T
 			id = 87
 			globalPos = (110360.46429443359, 946.64251708984375, 168588.59140014648)
-			rotation = (0.9645643, 179.9971, -1.95441E-11)
+			rotation = (0.9645643, 179.9971, -4.886024E-12)
 		}
 		StaticObject
 		{
@@ -12122,13 +11453,6 @@ CustomScenario
 			id = 101
 			globalPos = (110371.11711883545, 945.25482177734375, 168300.71642303467)
 			rotation = (-2.442666E-12, 89.99998, 9.706283E-20)
-		}
-		StaticObject
-		{
-			prefabID = VTOL4Crashed
-			id = 102
-			globalPos = (65267.8056640625, 943.5634765625, 11781.835693359375)
-			rotation = (358.5209, 0.08272735, 356.7984)
 		}
 	}
 	Conditionals
@@ -13093,37 +12417,6 @@ CustomScenario
 				isNot = False
 			}
 		}
-		CONDITIONAL
-		{
-			id = 45
-			outputNodePos = (0, 0, 0)
-			root = 0
-			COMP
-			{
-				id = 0
-				type = SCCUnit
-				uiPos = (-269, 25, 0)
-				unit = 332
-				methodName = SCC_LivesRemaining
-				methodParameters = Equals;0;
-				isNot = False
-			}
-		}
-		CONDITIONAL
-		{
-			id = 46
-			outputNodePos = (0, 0, 0)
-			root = 2
-			COMP
-			{
-				id = 2
-				type = SCCGlobalValue
-				uiPos = (-421.7333, -148.8191, 0)
-				gv = 6
-				comparison = Equals
-				c_value = 22
-			}
-		}
 	}
 	ConditionalActions
 	{
@@ -13861,113 +13154,6 @@ CustomScenario
 				}
 			}
 		}
-		SEQUENCE
-		{
-			id = 7
-			sequenceName = Rescue Pilot
-			startImmediately = False
-			whileLoop = False
-			EVENT
-			{
-				delay = 10
-				nodeName = New Node
-				EventInfo
-				{
-					eventName = 
-					EventTarget
-					{
-						targetType = Unit
-						targetID = 327
-						eventName = Move To
-						methodName = MoveTo
-						ParamInfo
-						{
-							type = Waypoint
-							value = 32
-							name = Waypoint
-						}
-					}
-					EventTarget
-					{
-						targetType = Unit
-						targetID = 328
-						eventName = Move To
-						methodName = MoveTo
-						ParamInfo
-						{
-							type = Waypoint
-							value = 31
-							name = Waypoint
-						}
-					}
-					EventTarget
-					{
-						targetType = Unit
-						targetID = 329
-						eventName = Move To
-						methodName = MoveTo
-						ParamInfo
-						{
-							type = Waypoint
-							value = 33
-							name = Waypoint
-						}
-					}
-					EventTarget
-					{
-						targetType = Unit
-						targetID = 330
-						eventName = Move To
-						methodName = MoveTo
-						ParamInfo
-						{
-							type = Waypoint
-							value = 34
-							name = Waypoint
-						}
-					}
-				}
-			}
-			EVENT
-			{
-				delay = 30
-				nodeName = New Node
-				EventInfo
-				{
-					eventName = 
-					EventTarget
-					{
-						targetType = Unit
-						targetID = 326
-						eventName = Spawn Unit
-						methodName = SpawnUnit
-					}
-				}
-			}
-			EVENT
-			{
-				delay = 1
-				nodeName = New Node
-				EventInfo
-				{
-					eventName = 
-					EventTarget
-					{
-						targetType = Objective
-						targetID = 43
-						eventName = Reset Objective
-						methodName = ResetObjective
-					}
-					EventTarget
-					{
-						targetType = Objective
-						targetID = 43
-						eventName = Begin Objective
-						methodName = BeginObjective
-					}
-				}
-			}
-		}
 	}
 	BASES
 	{
@@ -13999,10 +13185,6 @@ CustomScenario
 		gv
 		{
 			data = 5;2_CAP_1_Died;;0;
-		}
-		gv
-		{
-			data = 6;Pilot;;1;
 		}
 	}
 	Briefing
